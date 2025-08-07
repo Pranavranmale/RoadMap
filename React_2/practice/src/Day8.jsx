@@ -1,8 +1,10 @@
 import { useState } from "react";
-export default function Day8(){
+export default function Day8(data){
+    
     const[count,setCunt]=useState(0)
     return(<>
     <h1> {count}</h1>
+    <h1>{data}</h1>
     <button onClick={()=>setCunt(count+1)}>Counter</button>
     {
         count==0?<h1>condition0</h1>

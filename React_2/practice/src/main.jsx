@@ -2,7 +2,10 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Day8 from './Day8.jsx'
+import Day9 from './Day9.jsx'
 import App from './App.jsx'
+import Day10 from './Day10.jsx'
+import Wraper from './Wraper.jsx'
 // import Head from './Head.jsx'
 // import Todo from './Todo.jsx'
 // import Day_3 from './Day_3.jsx'
@@ -11,12 +14,9 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Day8/>
-    {/* <App /> */}
-    {/* <Day_3/>
-    <Day_4/>
-    <States/> */}
-    {/* <Head/> */}
-    {/* <Todo/> */}
+    <Day10/>
+    
+    {/* <Day9/> */}
+    {/* <Day8/> */}
   </StrictMode>,
 )
