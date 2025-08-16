@@ -1,0 +1,19 @@
+.heder{
+    color: blue;
+    margin: 20px;
+    padding: 20px;
+}
+.img {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+}
+.card{
+    border: 2px solid greenyellow;
+    margin: 20px;
+    
+    box-shadow: 1px 1px 10px 1px;
+}
+.textWrap{
+    padding: 35px;
+}

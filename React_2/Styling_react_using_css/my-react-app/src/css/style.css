@@ -1,0 +1,23 @@
+.heding{
+    color: aqua;
+}
+.img-style{
+    height:200px;
+    width: 400px;
+}
+.Bird-div{
+    border: 2px solid gray;
+    background-color: bisque;
+    box-shadow:  1px 1px 1px 1px #bd4444;
+    padding: 10px;
+    margin: 10px;
+
+}
+.text-wrap{
+    padding: 10px;
+}
+.Contener{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
